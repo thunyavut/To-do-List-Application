@@ -1,6 +1,6 @@
-# 📝 Full-Stack Todo List App
+# 📝 To-do List App
 
-A simple full-stack Todo List application built with React (frontend) and Express + TypeScript (backend).
+A simple full-stack To-do List application built with React (frontend) and Express + TypeScript (backend).
 
 The app allows users to:
 
@@ -36,11 +36,13 @@ The app allows users to:
 
   - POST /tasks → Add new task.
 
-  - PUT /tasks/:id → Update task.
+  - PUT /tasks/:id → Update task (replace).
+
+  - PATCH /tasks/:id → Update task (partial update).
 
   - DELETE /tasks/:id → Remove task.
 
-## 📂 Project Structure (Explained)
+## 📂 Project Structure
 
 The project is divided into two main folders: frontend/ and backend/, each with its own purpose and dependencies.
 
@@ -140,23 +142,23 @@ The project is divided into two main folders: frontend/ and backend/, each with 
    - cd backend
    - npm install
 
-   #### Run in development (TypeScript)
+   ##### Run in development (TypeScript)
 
    - npm run dev
 
-   #### Or build & run
+   ##### Or build & run
 
    - npm run build
    - npm start
 
-##### Backend runs at: http://localhost:3001
+#### Backend runs at: http://localhost:3001
 
 3. Setup Frontend
    - cd frontend
    - npm install
    - npm start
 
-##### Frontend runs at: http://localhost:3000
+#### Frontend runs at: http://localhost:3000
 
 ## 🔮 Future Improvements
 
