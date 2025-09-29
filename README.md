@@ -10,8 +10,6 @@ The app allows users to:
 
 - Display tasks in a modern Material-UI interface with pagination.
 
----
-
 ## 🚀 Features
 
 ### Frontend (React + MUI)
@@ -41,8 +39,6 @@ The app allows users to:
   - PUT /tasks/:id → Update task.
 
   - DELETE /tasks/:id → Remove task.
-
----
 
 ## 📂 Project Structure (Explained)
 
@@ -94,8 +90,6 @@ The project is divided into two main folders: frontend/ and backend/, each with 
 
 - Both frontend/ and backend/ are independent projects with their own dependencies.
 
----
-
 ## 🛠️ Technologies Used
 
 ### Frontend
@@ -113,8 +107,6 @@ The project is divided into two main folders: frontend/ and backend/, each with 
 - TypeScript → Safer server-side code.
 
 - UUID → For generating unique IDs for each task.
-
----
 
 ## ⚙️ How It Works
 
@@ -135,8 +127,6 @@ The project is divided into two main folders: frontend/ and backend/, each with 
 - Updates UI reactively when tasks are added/edited/deleted.
 
 - Uses pagination to keep the UI clean.
-
----
 
 ## 📦 Installation & Setup
 
@@ -165,8 +155,6 @@ Backend runs at: http://localhost:3001
    npm start
 
 Frontend runs at: http://localhost:3000
-
----
 
 ## 🔮 Future Improvements
 
