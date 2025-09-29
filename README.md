@@ -131,30 +131,32 @@ The project is divided into two main folders: frontend/ and backend/, each with 
 ## 📦 Installation & Setup
 
 1. Clone the repo
-   git clone https://github.com/thunyavut/To-do-List-Application.git
-   cd To-do-List-Application
+
+   - git clone https://github.com/thunyavut/To-do-List-Application.git
+   - cd To-do-List-Application
 
 2. Setup Backend
-   cd backend
-   npm install
 
-# Run in development (TypeScript)
+   - cd backend
+   - npm install
 
-npm run dev
+   #### Run in development (TypeScript)
 
-# Or build & run
+   - npm run dev
 
-npm run build
-npm start
+   #### Or build & run
 
-Backend runs at: http://localhost:3001
+   - npm run build
+   - npm start
+
+##### Backend runs at: http://localhost:3001
 
 3. Setup Frontend
-   cd frontend
-   npm install
-   npm start
+   - cd frontend
+   - npm install
+   - npm start
 
-Frontend runs at: http://localhost:3000
+##### Frontend runs at: http://localhost:3000
 
 ## 🔮 Future Improvements
 
